@@ -11,11 +11,6 @@ struct CheckType: View {
     @State var clipTypes: String = "sample"
     var body: some View {
         VStack {
-            VStack {
-                Text("Hello, world!")
-                    .textSelection(.enabled)
-            }
-            .padding()
             Section {
                 Button(action: {
                     clipTypes = ""
@@ -37,7 +32,7 @@ struct CheckType: View {
                         .fixedSize(horizontal: false, vertical: true)
                 }
                     
-            }
+            }.padding()
         }.frame(width:500, height: 300)
 
     }
