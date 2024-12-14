@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5E2746362D0D3DD100DAA35B /* CheckType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2746312D0D3DD100DAA35B /* CheckType.swift */; };
+		5E2746372D0D3DD100DAA35B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2746322D0D3DD100DAA35B /* ContentView.swift */; };
+		5E2746382D0D3DD100DAA35B /* ClipboardChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2746342D0D3DD100DAA35B /* ClipboardChecker.swift */; };
+		5E2746392D0D3DD100DAA35B /* WriteBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2746352D0D3DD100DAA35B /* WriteBoard.swift */; };
+		5E27463B2D0D3DD100DAA35B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E2746302D0D3DD100DAA35B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5E0F90AA2CF4633D005B2461 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,25 +32,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5E0F90982CF4633B005B2461 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E0F90A92CF4633D005B2461 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E0F90B32CF4633D005B2461 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E0F90982CF4633B005B2461 /* ClipboardChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipboardChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E0F90A92CF4633D005B2461 /* ClipboardCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipboardCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E0F90B32CF4633D005B2461 /* ClipboardCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipboardCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2746302D0D3DD100DAA35B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E2746312D0D3DD100DAA35B /* CheckType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckType.swift; sourceTree = "<group>"; };
+		5E2746322D0D3DD100DAA35B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5E2746332D0D3DD100DAA35B /* ClipboardChecker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClipboardChecker.entitlements; sourceTree = "<group>"; };
+		5E2746342D0D3DD100DAA35B /* ClipboardChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardChecker.swift; sourceTree = "<group>"; };
+		5E2746352D0D3DD100DAA35B /* WriteBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5E0F909A2CF4633B005B2461 /* test */ = {
+		5E2746432D0D3E3900DAA35B /* Preview Content */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = test;
-			sourceTree = "<group>";
-		};
-		5E0F90AC2CF4633D005B2461 /* testTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = testTests;
-			sourceTree = "<group>";
-		};
-		5E0F90B62CF4633D005B2461 /* testUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = testUITests;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,19 +79,23 @@
 		5E0F908F2CF4633B005B2461 = {
 			isa = PBXGroup;
 			children = (
-				5E0F909A2CF4633B005B2461 /* test */,
-				5E0F90AC2CF4633D005B2461 /* testTests */,
-				5E0F90B62CF4633D005B2461 /* testUITests */,
 				5E0F90992CF4633B005B2461 /* Products */,
+				5E2746432D0D3E3900DAA35B /* Preview Content */,
+				5E2746302D0D3DD100DAA35B /* Assets.xcassets */,
+				5E2746312D0D3DD100DAA35B /* CheckType.swift */,
+				5E2746342D0D3DD100DAA35B /* ClipboardChecker.swift */,
+				5E2746322D0D3DD100DAA35B /* ContentView.swift */,
+				5E2746332D0D3DD100DAA35B /* ClipboardChecker.entitlements */,
+				5E2746352D0D3DD100DAA35B /* WriteBoard.swift */,
 			);
 			sourceTree = "<group>";
 		};
 		5E0F90992CF4633B005B2461 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E0F90982CF4633B005B2461 /* test.app */,
-				5E0F90A92CF4633D005B2461 /* testTests.xctest */,
-				5E0F90B32CF4633D005B2461 /* testUITests.xctest */,
+				5E0F90982CF4633B005B2461 /* ClipboardChecker.app */,
+				5E0F90A92CF4633D005B2461 /* ClipboardCheckerTests.xctest */,
+				5E0F90B32CF4633D005B2461 /* ClipboardCheckerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +103,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E0F90972CF4633B005B2461 /* test */ = {
+		5E0F90972CF4633B005B2461 /* ClipboardChecker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E0F90BD2CF4633D005B2461 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = 5E0F90BD2CF4633D005B2461 /* Build configuration list for PBXNativeTarget "ClipboardChecker" */;
 			buildPhases = (
 				5E0F90942CF4633B005B2461 /* Sources */,
 				5E0F90952CF4633B005B2461 /* Frameworks */,
@@ -108,18 +116,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5E0F909A2CF4633B005B2461 /* test */,
+				5E2746432D0D3E3900DAA35B /* Preview Content */,
 			);
-			name = test;
+			name = ClipboardChecker;
 			packageProductDependencies = (
 			);
 			productName = test;
-			productReference = 5E0F90982CF4633B005B2461 /* test.app */;
+			productReference = 5E0F90982CF4633B005B2461 /* ClipboardChecker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5E0F90A82CF4633D005B2461 /* testTests */ = {
+		5E0F90A82CF4633D005B2461 /* ClipboardCheckerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E0F90C02CF4633D005B2461 /* Build configuration list for PBXNativeTarget "testTests" */;
+			buildConfigurationList = 5E0F90C02CF4633D005B2461 /* Build configuration list for PBXNativeTarget "ClipboardCheckerTests" */;
 			buildPhases = (
 				5E0F90A52CF4633D005B2461 /* Sources */,
 				5E0F90A62CF4633D005B2461 /* Frameworks */,
@@ -130,19 +138,16 @@
 			dependencies = (
 				5E0F90AB2CF4633D005B2461 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				5E0F90AC2CF4633D005B2461 /* testTests */,
-			);
-			name = testTests;
+			name = ClipboardCheckerTests;
 			packageProductDependencies = (
 			);
 			productName = testTests;
-			productReference = 5E0F90A92CF4633D005B2461 /* testTests.xctest */;
+			productReference = 5E0F90A92CF4633D005B2461 /* ClipboardCheckerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5E0F90B22CF4633D005B2461 /* testUITests */ = {
+		5E0F90B22CF4633D005B2461 /* ClipboardCheckerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E0F90C32CF4633D005B2461 /* Build configuration list for PBXNativeTarget "testUITests" */;
+			buildConfigurationList = 5E0F90C32CF4633D005B2461 /* Build configuration list for PBXNativeTarget "ClipboardCheckerUITests" */;
 			buildPhases = (
 				5E0F90AF2CF4633D005B2461 /* Sources */,
 				5E0F90B02CF4633D005B2461 /* Frameworks */,
@@ -153,14 +158,11 @@
 			dependencies = (
 				5E0F90B52CF4633D005B2461 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				5E0F90B62CF4633D005B2461 /* testUITests */,
-			);
-			name = testUITests;
+			name = ClipboardCheckerUITests;
 			packageProductDependencies = (
 			);
 			productName = testUITests;
-			productReference = 5E0F90B32CF4633D005B2461 /* testUITests.xctest */;
+			productReference = 5E0F90B32CF4633D005B2461 /* ClipboardCheckerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +188,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5E0F90932CF4633B005B2461 /* Build configuration list for PBXProject "test" */;
+			buildConfigurationList = 5E0F90932CF4633B005B2461 /* Build configuration list for PBXProject "ClipboardChecker" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +202,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E0F90972CF4633B005B2461 /* test */,
-				5E0F90A82CF4633D005B2461 /* testTests */,
-				5E0F90B22CF4633D005B2461 /* testUITests */,
+				5E0F90972CF4633B005B2461 /* ClipboardChecker */,
+				5E0F90A82CF4633D005B2461 /* ClipboardCheckerTests */,
+				5E0F90B22CF4633D005B2461 /* ClipboardCheckerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E27463B2D0D3DD100DAA35B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +239,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E2746362D0D3DD100DAA35B /* CheckType.swift in Sources */,
+				5E2746372D0D3DD100DAA35B /* ContentView.swift in Sources */,
+				5E2746382D0D3DD100DAA35B /* ClipboardChecker.swift in Sources */,
+				5E2746392D0D3DD100DAA35B /* WriteBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,12 +265,12 @@
 /* Begin PBXTargetDependency section */
 		5E0F90AB2CF4633D005B2461 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E0F90972CF4633B005B2461 /* test */;
+			target = 5E0F90972CF4633B005B2461 /* ClipboardChecker */;
 			targetProxy = 5E0F90AA2CF4633D005B2461 /* PBXContainerItemProxy */;
 		};
 		5E0F90B52CF4633D005B2461 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5E0F90972CF4633B005B2461 /* test */;
+			target = 5E0F90972CF4633B005B2461 /* ClipboardChecker */;
 			targetProxy = 5E0F90B42CF4633D005B2461 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -388,10 +395,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = test/test.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ClipboardChecker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -425,10 +432,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = test/test.entitlements;
+				CODE_SIGN_ENTITLEMENTS = ClipboardChecker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -474,7 +481,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClipboardChecker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClipboardChecker";
 				XROS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Debug;
@@ -496,7 +503,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClipboardChecker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClipboardChecker";
 				XROS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Release;
@@ -546,7 +553,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E0F90932CF4633B005B2461 /* Build configuration list for PBXProject "test" */ = {
+		5E0F90932CF4633B005B2461 /* Build configuration list for PBXProject "ClipboardChecker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E0F90BB2CF4633D005B2461 /* Debug */,
@@ -555,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E0F90BD2CF4633D005B2461 /* Build configuration list for PBXNativeTarget "test" */ = {
+		5E0F90BD2CF4633D005B2461 /* Build configuration list for PBXNativeTarget "ClipboardChecker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E0F90BE2CF4633D005B2461 /* Debug */,
@@ -564,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E0F90C02CF4633D005B2461 /* Build configuration list for PBXNativeTarget "testTests" */ = {
+		5E0F90C02CF4633D005B2461 /* Build configuration list for PBXNativeTarget "ClipboardCheckerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E0F90C12CF4633D005B2461 /* Debug */,
@@ -573,7 +580,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E0F90C32CF4633D005B2461 /* Build configuration list for PBXNativeTarget "testUITests" */ = {
+		5E0F90C32CF4633D005B2461 /* Build configuration list for PBXNativeTarget "ClipboardCheckerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E0F90C42CF4633D005B2461 /* Debug */,
