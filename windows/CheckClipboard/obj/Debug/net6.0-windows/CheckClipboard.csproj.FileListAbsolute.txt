@@ -1,0 +1,16 @@
+C:\Users\irico\Desktop\Debug\net6.0-windows\CheckClipboard.exe
+C:\Users\irico\Desktop\Debug\net6.0-windows\CheckClipboard.deps.json
+C:\Users\irico\Desktop\Debug\net6.0-windows\CheckClipboard.runtimeconfig.json
+C:\Users\irico\Desktop\Debug\net6.0-windows\CheckClipboard.dll
+C:\Users\irico\Desktop\Debug\net6.0-windows\CheckClipboard.pdb
+C:\Users\irico\OneDrive\デスクトップ\cplpl\CheckClipboard\CheckClipboard\obj\Debug\net6.0-windows\CheckClipboard.csproj.AssemblyReference.cache
+C:\Users\irico\OneDrive\デスクトップ\cplpl\CheckClipboard\CheckClipboard\obj\Debug\net6.0-windows\CheckClipboard.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irico\OneDrive\デスクトップ\cplpl\CheckClipboard\CheckClipboard\obj\Debug\net6.0-windows\CheckClipboard.AssemblyInfoInputs.cache
+C:\Users\irico\OneDrive\デスクトップ\cplpl\CheckClipboard\CheckClipboard\obj\Debug\net6.0-windows\CheckClipboard.AssemblyInfo.cs
+C:\Users\irico\OneDrive\デスクトップ\cplpl\CheckClipboard\CheckClipboard\obj\Debug\net6.0-windows\CheckClipboard.csproj.CoreCompileInputs.cache
+C:\Users\irico\OneDrive\デスクトップ\cplpl\CheckClipboard\CheckClipboard\obj\Debug\net6.0-windows\CheckCli.69F12553.Up2Date
+C:\Users\irico\OneDrive\デスクトップ\cplpl\CheckClipboard\CheckClipboard\obj\Debug\net6.0-windows\CheckClipboard.dll
+C:\Users\irico\OneDrive\デスクトップ\cplpl\CheckClipboard\CheckClipboard\obj\Debug\net6.0-windows\refint\CheckClipboard.dll
+C:\Users\irico\OneDrive\デスクトップ\cplpl\CheckClipboard\CheckClipboard\obj\Debug\net6.0-windows\CheckClipboard.pdb
+C:\Users\irico\OneDrive\デスクトップ\cplpl\CheckClipboard\CheckClipboard\obj\Debug\net6.0-windows\CheckClipboard.genruntimeconfig.cache
+C:\Users\irico\OneDrive\デスクトップ\cplpl\CheckClipboard\CheckClipboard\obj\Debug\net6.0-windows\ref\CheckClipboard.dll
